@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Avenir Roman';
+  src: url('../assets/avenir-roman.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Avenir Roman', sans-serif;
+  background: url('../assets/background.jpg') no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.btn-login {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.6);
+  color: #f9f9f9;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 2px solid #f9f9f9;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 16px;
+  right: 32px;
+  transition: all 0.2s ease;
+}
+
+.btn-login:hover {
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.logo {
+  width: 42%;
+  max-width: 160px;
+  margin-bottom: 20px;
+}
+
+.franchises {
+  max-width: 600px;
+  position: absolute;
+  bottom: 25px;
+}
+
+.hero-content {
+  margin-top: -10px;
+  padding: 80px 40px;
+}
+
+.hero-content > p {
+  color: rgba(192, 192, 192, 0.8);
+  font-size: 11px;
+  line-height: 17px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 43px;
+  color: #f9f9f9;
+  margin-bottom: 30px;
+}
+
+.prices-container {
+  display: flex;
+  align-items: stretch;
+  gap: 32px;
+}
+
+.price {
+  color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 330px;
+  max-width: 100%;
+}
+
+.price h3 {
+  font-size: 28px;
+  text-align: left;
+}
+
+.price h3 span {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.price a {
+  margin-top: 8px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #f9f9f9;
+  background-color: #0063e5;
+  transition: background-color 0.2s ease;
+  border-radius: 4px;
+}
+
+.price a:hover {
+  background-color: #0483ee;
+}
